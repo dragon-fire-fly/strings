@@ -12,6 +12,6 @@ while len(secret)<9:
 
 secret_name = secret + name
 reversed = secret_name[::-1]
-with_year = reversed + str(year)
+with_year = reversed + year
 
 print(with_year)
